@@ -12,9 +12,9 @@ if a < (b+c) and b < (a+c) and c < (a+b):
 else:
     print('Não forma um triângulo.')
 
-if (a == b) and (b == c) and (c == a):
-    print('E esse triângulo é EQUILÁTERO.')
-elif (a == b) or (b == c) or (c == a):
-    print('E esse triângulo é ISÓSCELES.')
-else:
-    print('E esse triângulo é .ESCALENO')
+    if (a == b) and (b == c) and (c == a):
+        print('E esse triângulo é EQUILÁTERO.')
+    elif (a == b) or (b == c) or (c == a):
+        print('E esse triângulo é ISÓSCELES.')
+    else:
+        print('E esse triângulo é .ESCALENO')
